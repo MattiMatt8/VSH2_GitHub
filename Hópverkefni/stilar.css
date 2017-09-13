@@ -14,12 +14,30 @@ body {
 	justify-content: center;
 	align-items: center;
 	align-content: center;
+	}
+.vetur{
+	font-size: 5em;
+	color: #ffa;
 }
-.vetur h1 {
+.haust h1 {
 	font-size: 5em;
 	color: #ffa;
 }
 .haust {
+	/*haust stílar hér*/
+	background: linear-gradient(to bottom left,  green, red); /* Standard syntax (must be last) */
+	position: fixed;
+	width: 100%;
+	height: 100%;
+  	margin: 0;
+  	padding: 0;
+  
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.haust a {
 	display: none;
 }
 .vor {
